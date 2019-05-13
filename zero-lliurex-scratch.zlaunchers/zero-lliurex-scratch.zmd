@@ -1,0 +1,5 @@
+#!/bin/bash
+
+epi-gtk /usr/share/zero-lliurex-scratch/scratch2.epi
+
+exit 0

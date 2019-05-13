@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+<id>zero-lliurex-adobeair</id>
+<metadata_license>CC0-1.0</metadata_license>
+<name>zero-lliurex-adobeair</name>
+<name xml:lang="es">Instalador del Adobe Air</name>
+<name xml:lang="ca_ES.UTF-8@valencia">Instal·lador de l'Adobe Air</name>
+<name xml:lang="ca_ES@valencia">Instal·lador de l'Adobe Air</name>
+<name xml:lang="ca_ES">Instal·lador de l'Adobe Air</name>
+<summary>Adobe Air Installer</summary>
+<summary xml:lang="es">Instalador del Adobe Air</summary>
+<summary xml:lang="ca_ES.UTF-8@valencia">Instal·lador de l'Adobe Air</summary>
+<summary xml:lang="ca_ES@valencia">Instal·lador de l'Adobe Air</summary>
+<summary xml:lang="ca_ES">Instal·lador de l'Adobe Air</summary>
+<description>
+<p>AIR was conceived as a versatile execution environment that allows Flash, Actionscript, HTML or JavaScript code to create Internet-based applications with many features of traditional desktop programs. Adobe defines it as a runtime environment that does not require a browser to bring RIA (rich Internet applications) to the desktop rather than an application framework. Each type of implementation has both advantages and disadvantages. For example, an RIA deployed in a browser requires no installation, while one implemented in Adobe AIR requires packaging, digital signing, and installation on the user's system. This gives access to the file system and local storage, while browser-based applications are more limited as to where and how stored data is accessed or accessed. In most cases, RIAs store user data on their own servers; but the ability to work with data in the local file system allows the user greater flexibility.</p>
+<p xml:lang="es">AIR se concibió como un entorno de ejecución versátil que permite código Flash, Actionscript, HTML o JavaScript para crear aplicaciones basadas en Internet con muchas características de los programas tradicionales de escritorio. Adobe lo define como un entorno de ejecución que no necesita navegador para traer al escritorio las RIA (aplicaciones de Internet enriquecidas) más que como una infraestructura corriente (framework) de aplicaciones. Cada tipo de implementación tiene tanto ventajas como inconvenientes. Por ejemplo, una RIA implementada en un navegador no requiere instalación, mientras que una implementada en Adobe AIR requiere empaquetamiento, firma digital e instalación en el sistema del usuario. Esto da acceso al sistema de archivos y al almacenamiento local, mientras que las aplicaciones basadas en navegador son más limitadas en cuanto a dónde y cómo se almacenan o acceden los datos guardados. En la mayoría de los casos, las RIA almacenan datos del usuario en sus propios servidores; mas la posibilidad de trabajar con datos en el sistema de archivos local le permite al usuario mayor flexibilidad.</p>
+<p xml:lang="ca_ES.UTF-8@valencia">AIR es va concebre com un entorn d'execució versàtil que permet codi Flash, ActionScript, HTML o JavaScript per crear aplicacions basades a internet amb les característiques dels programes tradicionals d'escriptori. Adobe el defineix com un entorn d'execució que no requereix del navegador per portar a l'escriptori les RIA (Aplicacions d'Internet enriquides) més que com una infraestructura corrent (framework) d'Aplicacions. Cada tipus d'implementació té avantatges i inconvenients. Per exemple, una RIA implementada en un navegador no requereix instalació, mentre que una implementada en Adobe AIR requereix empaquetat, signatura digital i instal·lació en el sistema de l'Usuari. Això dona accés al sistema d'arxius i enmagatzematge locals, mentre que les aplicacions basades en navegador son mes limitades en quant a on s'emmagatzemen o com s'accedeixen les dades guardades. A lamMajoria dels casos, les RIA emmagatzemen dades de l'usuari als seus propis servidors; mes la possibilitat de treballar amb dades en el sistema d'arxius locals li permet a l'usuari una major flexibilitat.</p>
+<p xml:lang="ca_ES@valencia">AIR es va concebre com un entorn d'execució versàtil que permet codi Flash, ActionScript, HTML o JavaScript per crear aplicacions basades a internet amb les característiques dels programes tradicionals d'escriptori. Adobe el defineix com un entorn d'execució que no requereix del navegador per portar a l'escriptori les RIA (Aplicacions d'Internet enriquides) més que com una infraestructura corrent (framework) d'Aplicacions. Cada tipus d'implementació té avantatges i inconvenients. Per exemple, una RIA implementada en un navegador no requereix instalació, mentre que una implementada en Adobe AIR requereix empaquetat, signatura digital i instal·lació en el sistema de l'Usuari. Això dona accés al sistema d'arxius i enmagatzematge locals, mentre que les aplicacions basades en navegador son mes limitades en quant a on s'emmagatzemen o com s'accedeixen les dades guardades. A lamMajoria dels casos, les RIA emmagatzemen dades de l'usuari als seus propis servidors; mes la possibilitat de treballar amb dades en el sistema d'arxius locals li permet a l'usuari una major flexibilitat.</p>
+<p xml:lang="ca_ES">AIR es va concebre com un entorn d'execució versàtil que permet codi Flash, ActionScript, HTML o JavaScript per crear aplicacions basades a internet amb les característiques dels programes tradicionals d'escriptori. Adobe el defineix com un entorn d'execució que no requereix del navegador per portar a l'escriptori les RIA (Aplicacions d'Internet enriquides) més que com una infraestructura corrent (framework) d'Aplicacions. Cada tipus d'implementació té avantatges i inconvenients. Per exemple, una RIA implementada en un navegador no requereix instalació, mentre que una implementada en Adobe AIR requereix empaquetat, signatura digital i instal·lació en el sistema de l'Usuari. Això dona accés al sistema d'arxius i enmagatzematge locals, mentre que les aplicacions basades en navegador son mes limitades en quant a on s'emmagatzemen o com s'accedeixen les dades guardades. A lamMajoria dels casos, les RIA emmagatzemen dades de l'usuari als seus propis servidors; mes la possibilitat de treballar amb dades en el sistema d'arxius locals li permet a l'usuari una major flexibilitat.</p>
+</description>
+<categories>
+<category>Lliurex</category>
+<category>Zomando</category>
+<category>Utility</category>
+</categories>
+<icon type="cached">adobeair</icon>
+
+<keywords>
+<keyword>zero</keyword>
+<keyword>lliurex</keyword>
+<keyword>adobeair</keyword>
+<keyword>zero-lliurex-adobeair</keyword>
+<keyword>Zomando</keyword>
+<keyword>flash</keyword>
+<keyword>actionscript</keyword>
+<keyword>javascript</keyword>
+<keyword>html</keyword>
+</keywords>
+<keywords xml:lang="es">
+<keyword>Instalador</keyword>
+<keyword>Adobe</keyword>
+<keyword>Air</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES.UTF-8@valencia">
+<keyword>Instal·lador</keyword>
+<keyword>Adobe</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES@valencia">
+<keyword>Instal·lador</keyword>
+<keyword>Adobe</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES">
+<keyword>Zomando</keyword>
+
+</keywords>
+</component>

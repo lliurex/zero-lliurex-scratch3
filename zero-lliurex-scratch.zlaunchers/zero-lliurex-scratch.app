@@ -1,0 +1,13 @@
+Name=zero-lliurex-scratch2
+Name[es]=Instalador del Scratch 2 
+Name[ca_ES]=Instal·lador de l'Scratch 2 
+Comment=Scratch 2  Installer
+Comment[es]=Instalador del Scratch 2 
+Comment[ca_ES]=Programari per a aprendre a programar
+Icon=scratch2
+Category=Software
+ScriptPath=zero-lliurex-scratch.zmd
+Groups=sudo;admin;admins;teachers
+Using=pkexec
+Service=True
+Modal=True

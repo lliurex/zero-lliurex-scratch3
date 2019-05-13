@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+<id>zero-lliurex-adobeair-scratch2</id>
+<metadata_license>CC0-1.0</metadata_license>
+<name>zero-lliurex-adobeair-scratch2</name>
+<name xml:lang="es">Instalador del Scratch 2 </name>
+<name xml:lang="ca_ES.UTF-8@valencia">Instal·lador de l'Scratch 2 </name>
+<name xml:lang="ca_ES">Instal·lador de l'Scratch 2 </name>
+<summary>Scratch is a free visual programming language oriented to teaching</summary>
+<summary xml:lang="es">Scratch es un lenguaje libre de programación visual orientado a la enseñanza</summary>
+<summary xml:lang="ca_ES.UTF-8@valencia">Scratch és un llenguatge lliure de programació visual orientat a l'ensenyament</summary>
+<summary xml:lang="ca_ES@valencia">Scratch és un llenguatge lliure de programació visual orientat a l'ensenyament</summary>
+<summary xml:lang="ca_ES">Scratch és un llenguatge lliure de programació visual orientat a l'ensenyament</summary>
+<description>
+<p>Scratch is used worldwide in environments as diverse as schools, museums, community centers and homes, among others. This program is especially aimed at children between the ages of 7 and 16, but thanks to its accessibility, users of all ages can use it. For example, the little ones create interactive stories, animations, games, etc. With his family and students of higher education use it in some of his introductory classes in Computer Science. The use of Scratch brings the student to the concept of social networks and learning environments, as it allows to share and discuss the works, programs and applications that are made with other users.</p>
+<p xml:lang="es">Scratch se utiliza en todo el mundo en entornos tan diversos como escuelas, museos, centros comunitarios y hogares, entre otros. Este programa está dirigido especialmente a niños entre 7 y 16 años pero gracias a su accesibilidad los usuarios de todas las edades pueden utilizarlo. Por ejemplo, los pequeños crean historias interactivas, animaciones, juegos, etc. con su familia mientras que los estudiantes de educación superior lo pueden utilizar en algunas de sus clases introductorias en Ciencias de la Computación. El uso de Scratch acerca al estudiante el concepto de redes sociales y entornos de aprendizaje, ya que permite compartir y discutir las obras, programas y aplicaciones que se realizan con otros usuarios.</p>
+<p xml:lang="ca_ES.UTF-8@valencia">Scratch es utilitzat arreu del mon en entorns tan diversos com escoles, museus, centres comunitaris i llars, entre altres. Aquest programa está dirigiit especialment a xiquetes i xiquetes entre 7 i 16 anys però gràcies a la seua accessibilitat els usuaris de totes les edats poden utilitzar-lo. Per exemple, els menuts creen històries interactives, animacions, jocs, etc. amb la seua família mentre que els estudiants d'Educació Superior poden utilitzar-ho a les seues classes introductòries de Ciències de la Computació. El ús de Scratch apropa a l'estudiant el concepte de xarxes socials i entorns d'aprenentatge, ja que permet compartir i discutir les obres, programes i aplicacions que realitzen amb altres usuaris.</p>
+<p xml:lang="ca_ES">Scratch es utilitzat arreu del mon en entorns tan diversos com escoles, museus, centres comunitaris i llars, entre altres. Aquest programa está dirigiit especialment a xiquetes i xiquetes entre 7 i 16 anys però gràcies a la seua accessibilitat els usuaris de totes les edats poden utilitzar-lo. Per exemple, els menuts creen històries interactives, animacions, jocs, etc. amb la seua família mentre que els estudiants d'Educació Superior poden utilitzar-ho a les seues classes introductòries de Ciències de la Computació. El ús de Scratch apropa a l'estudiant el concepte de xarxes socials i entorns d'aprenentatge, ja que permet compartir i discutir les obres, programes i aplicacions que realitzen amb altres usuaris.</p>
+<p xml:lang="ca_ES@valencia">Scratch es utilitzat arreu del mon en entorns tan diversos com escoles, museus, centres comunitaris i llars, entre altres. Aquest programa está dirigiit especialment a xiquetes i xiquetes entre 7 i 16 anys però gràcies a la seua accessibilitat els usuaris de totes les edats poden utilitzar-lo. Per exemple, els menuts creen històries interactives, animacions, jocs, etc. amb la seua família mentre que els estudiants d'Educació Superior poden utilitzar-ho a les seues classes introductòries de Ciències de la Computació. El ús de Scratch apropa a l'estudiant el concepte de xarxes socials i entorns d'aprenentatge, ja que permet compartir i discutir les obres, programes i aplicacions que realitzen amb altres usuaris.</p>
+</description>
+<categories>
+<category>Lliurex</category>
+<category>Zomando</category>
+<category>Utility</category>
+</categories>
+<icon type="cached">scratch2</icon>
+
+<keywords>
+<keyword>zero</keyword>
+<keyword>lliurex</keyword>
+<keyword>adobeair</keyword>
+<keyword>scratch2</keyword>
+<keyword>zero-lliurex-adobeair-scratch2</keyword>
+<keyword>Zomando</keyword>
+<keyword>development</keyword>
+</keywords>
+<keywords xml:lang="es">
+<keyword>Instalador</keyword>
+<keyword>Scratch</keyword>
+<keyword>Zomando</keyword>
+<keyword>desarrollo</keyword>
+<keyword>programación</keyword>
+</keywords>
+<keywords xml:lang="ca_ES.UTF-8@valencia">
+<keyword>Instal·lador</keyword>
+<keyword>Scratch</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES@valencia">
+<keyword>Instal·lador</keyword>
+<keyword>Scratch</keyword>
+<keyword>Zomando</keyword>
+<keyword>desenvolupament</keyword>
+<keyword>programació</keyword>
+</keywords>
+<keywords xml:lang="ca_ES">
+<keyword>Instal·lador</keyword>
+<keyword>Scratch</keyword>
+<keyword>Zomando</keyword>
+<keyword>desenvolupament</keyword>
+<keyword>programació</keyword>
+</keywords>
+</component>
