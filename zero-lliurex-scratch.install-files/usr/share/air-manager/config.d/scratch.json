@@ -1,0 +1,22 @@
+{
+	"generate-desktop":false,
+	"postinst":
+		{
+			"/usr/share/applications/Scratch-461.desktop":
+			{
+				"Exec=(?P<EXEC>.*)":"Exec=env http_proxy='' \\g<EXEC>",
+				"--append":[
+						"Name[es]=Scratch, programación visual\n",
+						"Name[ca_ES@valencia]=Scratch, programació visual\n",
+						"Name[ca_ES.UTF-8@valencia]=Scratch, programació visual\n"
+				]
+			}
+		},
+	"preinstall":
+		{
+			"META-INF/AIR/application.xml":
+			{
+				"<versionNumber>\\d+</versionNumber>":"<versionNumber>906</versionNumber>"
+			}
+		}
+}
