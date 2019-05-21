@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="desktop-application">
-<id>zero-lliurex-adobeair-scratch2</id>
+<id>zero-lliurex-scratch2</id>
 <metadata_license>CC0-1.0</metadata_license>
-<name>zero-lliurex-adobeair-scratch2</name>
+<name>zero-lliurex-scratch2</name>
 <name xml:lang="es">Instalador del Scratch 2 </name>
 <name xml:lang="ca_ES.UTF-8@valencia">Instal·lador de l'Scratch 2 </name>
 <name xml:lang="ca_ES">Instal·lador de l'Scratch 2 </name>
@@ -30,7 +30,7 @@
 <keyword>lliurex</keyword>
 <keyword>adobeair</keyword>
 <keyword>scratch2</keyword>
-<keyword>zero-lliurex-adobeair-scratch2</keyword>
+<keyword>zero-lliurex-scratch2</keyword>
 <keyword>Zomando</keyword>
 <keyword>development</keyword>
 </keywords>
