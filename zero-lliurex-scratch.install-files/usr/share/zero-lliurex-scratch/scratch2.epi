@@ -4,6 +4,4 @@
 	"script":{"name":"/usr/share/zero-lliurex-scratch/scratch2_script","remove":true,"getStatus":true},
 	"required_root":true,
 	"zomando": "zero-lliurex-scratch"
-	
-	
-	}
+}
