@@ -1,3 +1,9 @@
+zero-lliurex-scratch (0.2) bionic; urgency=medium
+
+  * Force utf8 on air-installer launch
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Wed, 22 May 2019 16:07:10 +0200
+
 zero-lliurex-scratch (0.1) bionic; urgency=medium
 
   * Initial release. Replaces zero-lliurex-adobeair
