@@ -1,4 +1,4 @@
-zero-lliurex-scratch (0.2) bionic; urgency=medium
+zero-lliurex-scratch (0.2.1) bionic; urgency=medium
 
   * Force utf8 on air-installer launch
 
