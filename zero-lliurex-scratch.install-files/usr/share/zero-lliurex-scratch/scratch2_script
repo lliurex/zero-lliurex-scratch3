@@ -9,7 +9,7 @@ LOG_FILE="/root/.appdata/Adobe/AIR/Logs/Install.log"
 ICON_FILE="/opt/AdobeAirApp/Scratch 2/share/META-INF/AIR/edu.media.mit.scratch2editor.desktop"
 MATE_ICON_FILE="/usr/share/mate/applications/"
 DESKTOP="edu.media.mit.scratch2editor.desktop"
-
+URL_SCRATCH="http://lliurex.net/recursos-edu/misc/"
 
 #Para el control de versiones partimos de que la 437 corresponde a la 900 y asi incrementalmente en ambos casos en el fichero indicado.
 UPDATE_FILE="/opt/AdobeAirApp/Scratch 2/share/META-INF/AIR/application.xml"
@@ -18,6 +18,10 @@ VERSION_LLIUREX_NUMBER="905"
 
 
 case $ACTION in
+
+	testInstall)
+		exit 0
+	;;
 
 	getStatus)
 		case $PKG in
@@ -35,6 +39,14 @@ case $ACTION in
 
 	;;
 
+	preInstall)
+#		wget $URL_SCRATCH$VERSION -O ${APP_PATH}/${VERSION}
+#		if [ $? != 0 ]
+#		then
+#			exit 1
+#		fi
+	;;
+
 	installPackage)
 		
 		if [ ! -f  $APP_PATH$VERSION ]; then
@@ -44,7 +56,7 @@ case $ACTION in
 		
 		echo "package $VERSION downloaded, time to install, please wait......."
 		chmod +x $APP_PATH$VERSION
-		/usr/bin/air-helper/installer.py install $APP_PATH$VERSION
+		LC_ALL=es_ES.UTF-8 /usr/bin/air-helper-installer.py install $APP_PATH$VERSION
 		if [ "$?" = "0" ]; then
 			echo "Your package $VERSION has been installed in your system"
 		else
@@ -52,21 +64,6 @@ case $ACTION in
 			exit 1
 		fi
 	;;
-
-	postInstall)
-		
-
-echo ">> Modify update file..."
-#Modificamos el fichero de la actualizacion para que no chequee en el arranque
-sed -i -e "s%<versionNumber>$VERSION_ORIG_NUMBER<\/versionNumber>%<versionNumber>$VERSION_LLIUREX_NUMBER<\/versionNumber>%g" "$UPDATE_FILE"
-if [ "$?" = "0" ]; then
-		echo "File version is updated."
-	else
-		echo "`printf "\e[32mError to update file version, this is not very important, but you can have any problem to use it."``echo -e "\033[0m"`"
-	fi
-	
-		
-	;;	
 
 	remove)
 		echo "Removing files..."
@@ -76,5 +73,5 @@ if [ "$?" = "0" ]; then
 	
 		
 esac
-echo "$PACKAGE_NAME has been installed in your system."
+echo "$PACKAGE_NAME has been installed in your system. $ACTION"
 exit 0	

@@ -2,7 +2,7 @@
 	"generate-desktop":false,
 	"postinst":
 		{
-			"/usr/share/applications/Scratch-461.desktop":
+			"/usr/share/applications/Scratch-latest.desktop":
 			{
 				"Exec=(?P<EXEC>.*)":"Exec=env http_proxy='' \\g<EXEC>",
 				"--append":[
