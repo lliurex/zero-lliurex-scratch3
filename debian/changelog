@@ -1,3 +1,9 @@
+zero-lliurex-scratch (0.2.4.1) bionic; urgency=medium
+
+  * Fix icon path
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Tue, 02 Jul 2019 14:00:30 +0200
+
 zero-lliurex-scratch (0.2.4) bionic; urgency=medium
 
   * Add "offline" to desktop name
