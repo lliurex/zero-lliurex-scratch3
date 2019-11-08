@@ -1,8 +1,8 @@
 Name=zero-lliurex-scratch2
-Name[es]=Instalador del Scratch 2 
-Name[ca_ES]=Instal·lador de l'Scratch 2 
+Name[es]=Instalador del Scratch 3 
+Name[ca_ES]=Instal·lador de l'Scratch 3 
 Comment=Scratch 2  Installer
-Comment[es]=Instalador del Scratch 2 
+Comment[es]=Instalador del Scratch 3 
 Comment[ca_ES]=Programari per a aprendre a programar
 Icon=zero-lliurex-scratch2
 Category=Software

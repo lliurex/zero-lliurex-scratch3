@@ -1,6 +1,6 @@
 {
 	"type":"file",
-	"pkg_list":[{"name":"scratch2","version":{"all":"Scratch-latest.air"},"key_store":"zero-lliurex-scratch","url_download":"http://lliurex.net/recursos-edu/misc/"}],
+	"pkg_list":[{"name":"scratch-desktop","version":{"all":"Scratch-latest.air"},"url_download":"http://lliurex.net/recursos-edu/misc/"}],
 	"script":{"name":"/usr/share/zero-lliurex-scratch/scratch2_script","remove":true,"getStatus":true},
 	"required_root":true,
 	"zomando": "zero-lliurex-scratch"
