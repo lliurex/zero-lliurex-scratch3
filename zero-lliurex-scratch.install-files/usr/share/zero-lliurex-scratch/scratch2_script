@@ -1,21 +1,17 @@
 #!/bin/bash
+#Based on lyshie's scripts at https://gist.github.com/lyshie/0c49393076b8b375ca1bd98c28f95fb0
 
 ACTION="$1"
 PKG="$2"
 APP_PATH="/var/cache/epi-downloads/"
+TAR_PATH="/tmp/scratch_tmp/"
 PACKAGE_NAME="edu.media.mit.scratch2editor"
-VERSION="Scratch-latest.air"
-LOG_FILE="/root/.appdata/Adobe/AIR/Logs/Install.log"
-ICON_FILE="/opt/AdobeAirApp/Scratch 2/share/META-INF/AIR/edu.media.mit.scratch2editor.desktop"
-MATE_ICON_FILE="/usr/share/mate/applications/"
-DESKTOP="edu.media.mit.scratch2editor.desktop"
+VERSION="Scratch-desktop.exe"
+TAR="Scratch-latest.tar"
+LOG_FILE="/tmp/Install.log"
 URL_SCRATCH="http://lliurex.net/recursos-edu/misc/"
-
-#Para el control de versiones partimos de que la 437 corresponde a la 900 y asi incrementalmente en ambos casos en el fichero indicado.
-UPDATE_FILE="/opt/AdobeAirApp/Scratch 2/share/META-INF/AIR/application.xml"
-VERSION_ORIG_NUMBER="458.0.1"
-VERSION_LLIUREX_NUMBER="905"
-
+NODE_PATH=$(npm root -g)
+SCRATCH_PATH="/tmp/scratch-desktop/"
 
 case $ACTION in
 
@@ -25,7 +21,7 @@ case $ACTION in
 
 	getStatus)
 		case $PKG in
-			scratch2)
+			scratch-desktop)
 
 				TEST=$( dpkg-query -s $PACKAGE_NAME 2> /dev/null| grep Status | cut -d " " -f 4 )
 				if [ "$TEST" == 'installed' ]; then
@@ -40,6 +36,7 @@ case $ACTION in
 	;;
 
 	preInstall)
+		apt install npm p7zip-full
 #		wget $URL_SCRATCH$VERSION -O ${APP_PATH}/${VERSION}
 #		if [ $? != 0 ]
 #		then
@@ -48,30 +45,50 @@ case $ACTION in
 	;;
 
 	installPackage)
+		npm install -g electron@4.1.4 --save-dev
+		######## extract scratch-desktop
+		rm -rf $SCRATCH_PATH
+		mkdir $SCRATCH_PATH
+		rm -rf $TAR_PATH
+		mkdir $TAR_PATH
+
+#		wget -O $SCRATCH_PATH.exe 'https://downloads.scratch.mit.edu/desktop/Scratch%20Desktop%20Setup%203.6.0.exe'
+		tar -xf $APP_PATH$TAR -C $TAR_PATH
+		7za x -aoa -y $TAR_PATH$VERSION -o$SCRATCH_PATH #$SCRATCH_PATH.exe -o$SCRATCH_PATH
+		######## create electron app
+		cp -rf $NODE_PATH/electron/dist/* $SCRATCH_PATH/
+		ln -fsr $SCRATCH_PATH/electron $SCRATCH_PATH/scratch-desktop
 		
-		if [ ! -f  $APP_PATH$VERSION ]; then
-			echo "Your package $VERSION has a problem to download from lliurex.net, please retry again or contact with Lliurex Team at http://mestreacasa.gva.es/web/lliurex/forums" 
-			exit 1
-		fi
-		
-		echo "package $VERSION downloaded, time to install, please wait......."
-		chmod +x $APP_PATH$VERSION
-		LC_ALL=es_ES.UTF-8 /usr/bin/air-helper-installer.py install $APP_PATH$VERSION
-		if [ "$?" = "0" ]; then
-			echo "Your package $VERSION has been installed in your system"
-		else
-			echo "Your package $VERSION has a problem to be installed in your system, please retry again or contact with Lliurex Team at http://mestreacasa.gva.es/web/lliurex/forums"
-			exit 1
-		fi
+
+		######## fix permissions
+		chmod 755 $SCRATCH_PATH/locales
+		chmod 755 $SCRATCH_PATH/swiftshader
+		chmod 755 $SCRATCH_PATH/resources
+		chmod 755 $SCRATCH_PATH/resources/static
+		chmod 755 $SCRATCH_PATH/resources/static/assets
+
+
+		######## get application icon
+#		wget -O $SCRATCH_PATH/resources/Icon.png 'https://scratch.mit.edu/images/download/icon.png
+		cp $TAR_PATH/Icon.png $SCRATCH_PATH/resources/Icon.png
+
+
+		######## create deb package
+		npm install -g electron-installer-debian
+#		wget -O /tmp/config-deb.json 'https://gist.githubusercontent.com/lyshie/0c49393076b8b375ca1bd98c28f95fb0/raw/223cc112d99c3bdc1829fc25b19c260856134a82/config-deb.json'
+		/usr/local/bin/electron-installer-debian --config $TAR_PATH/config-deb.json
+		dpkg -i /tmp/scratch-desktop_3.6.0_amd64.deb
+
+
 	;;
 
 	remove)
 		echo "Removing files..."
-		/usr/bin/air-helper/installer.py remove $VERSION
+		apt remove scratch-desktop
 
 	;;
 	
 		
 esac
-echo "$PACKAGE_NAME has been installed in your system. $ACTION"
+echo "$PACKAGE_NAME has been installed in your system."
 exit 0	
