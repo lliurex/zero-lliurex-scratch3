@@ -1,3 +1,9 @@
+zero-lliurex-scratch (0.3.1) bionic; urgency=medium
+
+  * Removed air-mamager fixes
+
+ -- Juanma1980 <juanma1980@gmail.com>  Fri, 08 Nov 2019 13:48:56 +0100
+
 zero-lliurex-scratch (0.3) bionic; urgency=medium
 
   * Migrated to electron and Scratch 3.6
