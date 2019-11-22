@@ -90,5 +90,5 @@ case $ACTION in
 	
 		
 esac
-echo "$PACKAGE_NAME has been installed in your system."
+
 exit 0	

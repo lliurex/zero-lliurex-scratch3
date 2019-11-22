@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="desktop-application">
-<id>zero-lliurex-scratch2</id>
+<id>zero-lliurex-scratch3</id>
 <metadata_license>CC0-1.0</metadata_license>
-<name>zero-lliurex-scratch2</name>
-<name xml:lang="es">Instalador del Scratch 2 </name>
-<name xml:lang="ca_ES.UTF-8@valencia">Instal·lador de l'Scratch 2 </name>
-<name xml:lang="ca_ES">Instal·lador de l'Scratch 2 </name>
+<name>zero-lliurex-scratch3</name>
+<name xml:lang="es">Instalador del Scratch 3 </name>
+<name xml:lang="ca_ES.UTF-8@valencia">Instal·lador de l'Scratch 3 </name>
+<name xml:lang="ca_ES">Instal·lador de l'Scratch 3 </name>
 <summary>Scratch is a free visual programming language oriented to teaching</summary>
 <summary xml:lang="es">Scratch es un lenguaje libre de programación visual orientado a la enseñanza</summary>
 <summary xml:lang="ca_ES.UTF-8@valencia">Scratch és un llenguatge lliure de programació visual orientat a l'ensenyament</summary>
@@ -28,8 +28,7 @@
 <keywords>
 <keyword>zero</keyword>
 <keyword>lliurex</keyword>
-<keyword>adobeair</keyword>
-<keyword>scratch2</keyword>
+<keyword>scratch3</keyword>
 <keyword>zero-lliurex-scratch2</keyword>
 <keyword>Zomando</keyword>
 <keyword>development</keyword>
