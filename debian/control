@@ -8,6 +8,7 @@ Standards-Version: 4.1.2
 
 Package: zero-lliurex-scratch3
 Architecture: all
+Replaces: zero-lliurex-scratch
 Depends: ${misc:Depends}, epi-gtk, zero-center
 Description: Scratch 3 offline editor Installer
  Installer for Scratch 3 Offline Editor
