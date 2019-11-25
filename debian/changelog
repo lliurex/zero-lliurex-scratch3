@@ -1,6 +1,7 @@
-zero-lliurex-scratch (0.3.1) bionic; urgency=medium
+zero-lliurex-scratch3 (0.3.1) bionic; urgency=medium
 
   * Removed air-mamager fixes
+  * Renamed package
 
  -- Juanma1980 <juanma1980@gmail.com>  Fri, 08 Nov 2019 13:48:56 +0100
 

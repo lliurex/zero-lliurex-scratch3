@@ -1,4 +1,4 @@
-Source: zero-lliurex-scratch
+Source: zero-lliurex-scratch3
 Section: admin
 Priority: optional
 Maintainer: Equipo LliureX <lliurex@gva.es>
@@ -6,12 +6,9 @@ Uploaders: Angel Berlanas Vicente <lliurex_devel2@edu.gva.es>, Raul Rodrigo Segu
 Build-Depends: debhelper (>= 10), zero-dev, llxsrchelper,inkscape (>= 0.47),python3-poinstaller
 Standards-Version: 4.1.2
 
-Package: zero-lliurex-scratch
+Package: zero-lliurex-scratch3
 Architecture: all
-Depends: ${misc:Depends}, epi-gtk, zero-center, air-manager, air-installer
-Provides: zero-lliurex-adobeair
-Conflicts: zero-lliurex-adobeair
-Replaces: zero-lliurex-adobeair
-Description: Scratch offline editor Installer
- Installer for Scratch Offline Editor
+Depends: ${misc:Depends}, epi-gtk, zero-center
+Description: Scratch 3 offline editor Installer
+ Installer for Scratch 3 Offline Editor
 
