@@ -1,3 +1,9 @@
+zero-lliurex-scratch3 (0.3.2) bionic; urgency=medium
+
+  * New banner.
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Mon, 23 Dec 2019 14:12:42 +0100
+
 zero-lliurex-scratch3 (0.3.1) bionic; urgency=medium
 
   * Removed air-mamager fixes
