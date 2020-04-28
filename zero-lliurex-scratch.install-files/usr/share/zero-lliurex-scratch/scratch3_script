@@ -36,7 +36,7 @@ case $ACTION in
 	;;
 
 	preInstall)
-		apt install npm p7zip-full
+		apt install npm p7zip-full -y
 #		wget $URL_SCRATCH$VERSION -O ${APP_PATH}/${VERSION}
 #		if [ $? != 0 ]
 #		then
