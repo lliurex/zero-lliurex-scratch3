@@ -1,7 +1,8 @@
 {
 	"type":"file",
-	"pkg_list":[{"name":"scratch-desktop","version":{"all":"Scratch-latest.tar"},"url_download":"http://lliurex.net/recursos-edu/misc/"}],
+	"pkg_list":[{"name":"scratch-desktop","version":{"all":"Scratch-latest.tar"},"url_download":"http://lliurex.net/recursos-edu/misc/","custom_icon":"scratch.svg"}],
 	"script":{"name":"/usr/share/zero-lliurex-scratch/scratch3_script","remove":true,"getStatus":true},
+	"custom_icon_path":"/usr/share/icons/lliurex/apps/48/",
 	"required_root":true,
 	"zomando": "zero-lliurex-scratch3"
 }
