@@ -1,3 +1,10 @@
+zero-lliurex-scratch3 (0.4) bionic; urgency=medium
+
+  * Fix: Return code now returns the return code
+  * Force version of electron-installer-debian to 2.0.1 for node8 compatibility
+
+ -- Juanma1980 <juanma1980@gmail.com>  Thu, 24 Sep 2020 09:41:04 +0200
+
 zero-lliurex-scratch3 (0.3.5) bionic; urgency=medium
 
   * Added custom icon to show in epi
