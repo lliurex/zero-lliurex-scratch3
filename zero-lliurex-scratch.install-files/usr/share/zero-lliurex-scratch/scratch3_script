@@ -74,10 +74,10 @@ case $ACTION in
 
 
 		######## create deb package
-		npm install -g electron-installer-debian
+		npm install -g electron-installer-debian@2.0.1
 #		wget -O /tmp/config-deb.json 'https://gist.githubusercontent.com/lyshie/0c49393076b8b375ca1bd98c28f95fb0/raw/223cc112d99c3bdc1829fc25b19c260856134a82/config-deb.json'
 		/usr/local/bin/electron-installer-debian --config $TAR_PATH/config-deb.json
-		dpkg -i /tmp/scratch-desktop_3.6.0_amd64.deb
+		dpkg -i /tmp/scratch-desktop_3.6.0_amd64.deb || exit 1
 
 
 	;;
