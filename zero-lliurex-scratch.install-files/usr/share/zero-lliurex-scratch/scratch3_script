@@ -45,7 +45,7 @@ case $ACTION in
 	;;
 
 	installPackage)
-		npm install -g electron@4.1.4 --save-dev
+		npm install -g electron@4.1.4 --unsafe-perm=true --allow-root --save-dev
 		######## extract scratch-desktop
 		rm -rf $SCRATCH_PATH
 		mkdir $SCRATCH_PATH
