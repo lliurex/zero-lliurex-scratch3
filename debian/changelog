@@ -1,3 +1,9 @@
+zero-lliurex-scratch3 (0.4.2) focal; urgency=medium
+
+  * First focal release
+
+ -- Juanma1980 <juanma1980@gmail.com>  Thu, 11 Mar 2021 10:11:42 +0100
+
 zero-lliurex-scratch3 (0.4.1) bionic; urgency=medium
 
   * Fix package metadata
