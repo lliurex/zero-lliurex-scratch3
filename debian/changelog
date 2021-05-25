@@ -1,3 +1,9 @@
+zero-lliurex-scratch3 (0.4.3) focal; urgency=medium
+
+  * Fixed zero app file
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 25 May 2021 17:36:23 +0200
+
 zero-lliurex-scratch3 (0.4.2) focal; urgency=medium
 
   * First focal release
