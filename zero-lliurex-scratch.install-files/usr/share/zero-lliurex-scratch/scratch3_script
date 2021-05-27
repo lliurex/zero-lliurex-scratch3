@@ -84,7 +84,7 @@ case $ACTION in
 
 	remove)
 		echo "Removing files..."
-		apt remove scratch-desktop
+		apt remove -y scratch-desktop
 
 	;;
 	
