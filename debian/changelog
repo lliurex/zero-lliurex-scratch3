@@ -1,3 +1,9 @@
+zero-lliurex-scratch3 (0.4.4) focal; urgency=medium
+
+  * Fixed epi script file
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 31 May 2021 08:08:14 +0200
+
 zero-lliurex-scratch3 (0.4.3) focal; urgency=medium
 
   * Fixed zero app file
