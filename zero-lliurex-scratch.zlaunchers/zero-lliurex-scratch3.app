@@ -1,11 +1,13 @@
 Name=zero-lliurex-scratch3
 Name[es]=Instalador del Scratch 3 
 Name[ca_ES]=Instal·lador de l'Scratch 3 
-Name[ca@valencia]=Instal·lador de l'Scratch 3 
+Name[ca@valencia]=Instal·lador de l'Scratch 3
+Name[qcv]=Instal·lador de l'Scratch 3 
 Comment=Software for teach developing
 Comment[es]=Programara para aprender a programar
 Comment[ca_ES]=Programari per a aprendre a programar
 Comment[ca@valencia]=Programari per a aprendre a programar
+Comment[qcv]=Programari per a aprendre a programar
 Icon=zero-lliurex-scratch3
 Category=Software
 ScriptPath=zero-lliurex-scratch3.zmd
