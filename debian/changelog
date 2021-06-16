@@ -1,3 +1,10 @@
+zero-lliurex-scratch3 (0.4.5) focal; urgency=medium
+
+  * Added custom name in epi
+  * Fixed app file
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 16 Jun 2021 14:24:24 +0200
+
 zero-lliurex-scratch3 (0.4.4) focal; urgency=medium
 
   * Fixed epi script file
