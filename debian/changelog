@@ -1,3 +1,9 @@
+zero-lliurex-scratch3 (0.4.6) lliurex22; urgency=medium
+
+  * Allow all users 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 14 Jun 2022 14:06:11 +0200
+
 zero-lliurex-scratch3 (0.4.5) focal; urgency=medium
 
   * Added custom name in epi
