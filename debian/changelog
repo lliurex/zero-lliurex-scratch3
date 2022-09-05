@@ -1,3 +1,9 @@
+zero-lliurex-scratch3 (0.4.7) focal; urgency=medium
+
+  * Fixed function in script to get status of install
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 05 Sep 2022 13:36:41 +0200
+
 zero-lliurex-scratch3 (0.4.6) focal; urgency=medium
 
   * Allow all users 
