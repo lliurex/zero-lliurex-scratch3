@@ -23,7 +23,7 @@ case $ACTION in
 		case $PKG in
 			scratch-desktop)
 
-				TEST=$( dpkg-query -s $PACKAGE_NAME 2> /dev/null| grep Status | cut -d " " -f 4 )
+				TEST=$( dpkg-query -s $PKG 2> /dev/null| grep Status | cut -d " " -f 4 )
 				if [ "$TEST" == 'installed' ]; then
 					echo "0"
 				else
@@ -45,7 +45,7 @@ case $ACTION in
 	;;
 
 	installPackage)
-		npm install -g electron@4.1.4 --save-dev
+		npm install -g electron@4.1.4 --unsafe-perm=true --allow-root --save-dev
 		######## extract scratch-desktop
 		rm -rf $SCRATCH_PATH
 		mkdir $SCRATCH_PATH
@@ -84,7 +84,7 @@ case $ACTION in
 
 	remove)
 		echo "Removing files..."
-		apt remove scratch-desktop
+		apt remove -y scratch-desktop
 
 	;;
 	
