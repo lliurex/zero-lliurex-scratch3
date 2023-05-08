@@ -1,6 +1,6 @@
 {
 	"type":"file",
-	"pkg_list":[{"name":"scratch-desktop","version":{"all":"Scratch-latest.tar"},"url_download":"http://lliurex.net/recursos-edu/misc/","custom_icon":"scratch.svg","custom_name":"Scratch 3: Scratch editor desktop version"}],
+	"pkg_list":[{"name":"scratch-desktop","version":{"all":"Scratch-latest.tar"},"url_download":"http://lliurex.net/recursos/","custom_icon":"scratch.svg","custom_name":"Scratch 3: Scratch editor desktop version"}],
 	"script":{"name":"/usr/share/zero-lliurex-scratch/scratch3_script","remove":true,"getStatus":true},
 	"custom_icon_path":"/usr/share/icons/lliurex/apps/48/",
 	"required_root":true,
