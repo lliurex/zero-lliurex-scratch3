@@ -9,7 +9,7 @@ PACKAGE_NAME="edu.media.mit.scratch2editor"
 VERSION="Scratch-desktop.exe"
 TAR="Scratch-latest.tar"
 LOG_FILE="/tmp/Install.log"
-URL_SCRATCH="http://lliurex.net/recursos-edu/misc/"
+URL_SCRATCH="http://lliurex.net/recursos/"
 NODE_PATH=$(npm root -g)
 SCRATCH_PATH="/tmp/scratch-desktop/"
 
